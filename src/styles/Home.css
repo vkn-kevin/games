@@ -1,0 +1,91 @@
+.home {
+  text-align: center;
+  padding: 2rem;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 300px;
+  margin: 2rem auto;
+}
+
+.player-button {
+  display: block;
+  padding: 1rem 2rem;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s;
+}
+
+.player-button:hover {
+  background-color: #45a049;
+}
+
+.game-settings {
+  margin: 20px 0;
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.game-settings label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.game-settings input[type="number"] {
+  margin-left: 10px;
+  padding: 5px;
+  width: 60px;
+}
+
+.player-links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.game-info {
+  margin-top: 20px;
+  padding: 10px;
+  background: #f0f0f0;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* Player page styles */
+.player-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.text-box {
+  margin-top: 40px;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chosen-one {
+  color: #d32f2f;
+}
+
+.word-display .word {
+  font-size: 2em;
+  font-weight: bold;
+  color: #1976d2;
+  margin-top: 10px;
+}
